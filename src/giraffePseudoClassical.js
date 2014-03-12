@@ -38,7 +38,7 @@ giraffeMaker.prototype.browse = function() {
   if (this.isTallEnough(2)) {
     this.eat();
   } else {
-    this.say('notTallEnough')
+    this.say('notTallEnough');
   }
 };
 

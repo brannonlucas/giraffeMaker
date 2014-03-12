@@ -36,7 +36,7 @@ var giraffeMaker = function(name, height) {
     if (newGiraffe.isTallEnough(2)) {
       newGiraffe.eat();
     } else {
-      newGiraffe.say('notTallEnough')
+      newGiraffe.say('notTallEnough');
     }
   };
 
